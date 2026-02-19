@@ -24,11 +24,19 @@ O sistema utiliza uma estrutura de dados (`struct Musicas`) para armazenar infor
 
 ---
 
+## 🚀 Tecnologias Utilizadas
+
+- **C++** — Desenvolvimento do programa principal.
+- **CSV / Binário** — Manipulação de dados de entrada.
+
+---
+
 ## ⚙️ Como Compilar e Executar
 
-### Pré-requisitos
-Certifique-se de ter um compilador C++ (como o `g++`) instalado.
+# Compilar o programa (exemplo com g++)
+g++ projetoPratico.cpp -o projetoPratico
 
-### Compilação
-```bash
-g++ projetoPratico.cpp -o spotify_manager
+# Executar, passando os arquivos de dados (se necessário)
+./projetoPratico spotify100.csv
+# ou, caso utilize o binário:
+./projetoPratico Spotify100.bin
