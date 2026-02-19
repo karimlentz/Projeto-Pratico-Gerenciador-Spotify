@@ -33,10 +33,12 @@ O sistema utiliza uma estrutura de dados (`struct Musicas`) para armazenar infor
 
 ## ⚙️ Como Compilar e Executar
 
-### Compilar o programa (exemplo com g++)
+```bash
+# Compilar o programa (exemplo com g++)
 g++ projetoPratico.cpp -o projetoPratico
 
-### Executar, passando os arquivos de dados (se necessário)
+# Executar, passando os arquivos de dados (se necessário)
 ./projetoPratico spotify100.csv
-### ou, caso utilize o binário:
+# ou, caso utilize o binário:
 ./projetoPratico Spotify100.bin
+```
